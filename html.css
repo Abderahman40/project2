@@ -1,0 +1,139 @@
+
+
+
+
+
+.head-container{
+    display: flex;
+    justify-content:space-between;
+    background-image: url(images\ back.jpg);
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid gray ;
+    padding: 1em;
+    border-radius: 5px;
+    margin-top: 0;
+    height: 70vh;
+    
+}
+.head-container > div{
+    text-decoration: underline;
+    color: white;
+}
+
+
+.head-container > div:hover{
+    cursor: pointer;
+    color:orange;
+    
+}
+
+
+.icon-log{
+    display: flex;
+    font-weight: 900;
+    font-size: larger;
+    
+    
+}
+img{
+    width: 50px;
+    border-radius: 20px;
+    
+    
+}
+
+button{
+    background-color: #4335a7 ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 14px;
+    padding: 10px;
+    
+
+}
+button:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.price-container{
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+}
+
+.price-plan{
+    background-color: #aec7f1 ;
+    padding: 2rem;
+    border-radius: 20px;
+    
+}
+
+.plan-tittle{
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+}
+.plan-video{
+    font-size: 13px;
+    padding: 1rem;
+    color:#260f52;
+}
+span{
+    color: #1c1c1c ;
+    font-size: small;
+    font-weight: normal;
+}
+
+.plan-size{
+    font-weight: 900;
+    font-size: larger;
+    padding: 10px;
+}
+.plan-features{
+    list-style: none;
+    font-size: small;
+}
+li{
+    padding: 5px;
+}
+.plan-key{
+    font-size: small;
+}
+
+@media (max-width: 800px){
+    .head-container{
+        flex-direction: column;
+    }
+}
+@media (min-width:801px){
+    .head-container{
+        flex-direction:unset;
+        height: 100%;
+    }
+}
+
+footer{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    
+}
+
